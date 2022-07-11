@@ -89,10 +89,16 @@ section {
     height: 25px;
     background-size: 25px;
   }
-  .personal-footer {
+  .table-date {
     margin: 0;
-    padding: 0;
-    padding-bottom: -0.225em;
+    vertical-align: top;
+  }
+  .table-datas {
+    text-align: left;
+    vertical-align: top;
+  }
+  .table-datas p:nth-child(2), .table-datas p:nth-child(3) {
+    margin-left: 1.35em;
   }
   .personal-mail {
     margin-left: 0.9em;
@@ -205,10 +211,16 @@ section {
     height: 35px;
     background-size: 35px;
   }
-  .personal-footer {
+  .table-date {
     margin: 0;
-    padding: 0;
-    padding-bottom: -0.25em;
+    vertical-align: top;
+  }
+  .table-datas {
+    text-align: left;
+    vertical-align: top;
+  }
+  .table-datas p:nth-child(2), .table-datas p:nth-child(3) {
+    margin-left: 1.5em;
   }
   .personal-mail {
     margin-left: 1em;
@@ -321,10 +333,16 @@ section {
     height: 50px;
     background-size: 50px;
   }
-  .personal-footer {
+  .table-date {
     margin: 0;
-    padding: 0;
-    padding-bottom: -0.275em;
+    vertical-align: top;
+  }
+  .table-datas {
+    text-align: left;
+    vertical-align: top;
+  }
+  .table-datas p:nth-child(2), .table-datas p:nth-child(3) {
+    margin-left: 1.65em;
   }
   .personal-mail {
     margin-left: 1.1em;

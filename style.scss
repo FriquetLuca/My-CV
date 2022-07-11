@@ -79,12 +79,20 @@ $txt-link: #85c0c0;
     height: $iconSize;
     background-size: $iconSize;
   }
-  .personal {
-    &-footer {
+  .table {
+    &-date {
       margin: 0;
-      padding: 0;
-      padding-bottom: $size * -0.25em;
+      vertical-align: top;
     }
+    &-datas {
+      text-align: left;
+      vertical-align: top;
+      p:nth-child(2), p:nth-child(3) {
+        margin-left: $size * 1.5em;
+      }
+    }
+  }
+  .personal {
     &-mail {
       margin-left: $size * 1em;
       &-icon {
